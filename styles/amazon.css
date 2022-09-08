@@ -1,0 +1,65 @@
+body {
+    display: grid;
+    grid-template-rows: 100 100;
+    background-color: lightgrey;
+    /* justify-content: center; */
+}
+
+#page-header {
+    background: black;
+    color: white;
+    height: 40px;
+}
+#products {
+    background: lightgrey;
+    display: grid;
+    height: 2000px;
+    grid-template-columns: 1fr 1000px 1fr;
+}
+
+#product-display {
+    background-color: peachpuff;
+    grid-template-rows: repeat(10, 1fr);
+}
+#hero-add {
+    background: linear-gradient(to bottom, #ffcc99 0%, #ffffff 100%);
+    height: 200px;
+}
+
+#most-loved {
+    background-color: lightcyan;
+    height: 200px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#gifts {
+    background-color: lightpink;
+    width
+}
+#fall {
+    background-color: orangered;
+}
+
+#finds {
+    background-color: rgb(228, 189, 84);
+}
+#sign-in {
+    background-color: rgb(245, 240, 238);
+}
+#more-most-loved {
+    background-color: cadetblue;
+    height: 200px;
+}
+
+.cube {
+    border:black 2px;
+    column-count: 2;
+    /* display: grid; */
+    
+
+}
+
+ul{
+    border:black;
+}
