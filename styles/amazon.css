@@ -3,6 +3,7 @@ body {
     grid-template-rows: 100 100;
     background-color: lightgrey;
     /* justify-content: center; */
+    padding: 10px;
 }
 
 #page-header {
@@ -10,6 +11,7 @@ body {
     color: white;
     height: 40px;
 }
+
 #products {
     background: lightgrey;
     display: grid;
@@ -18,48 +20,78 @@ body {
 }
 
 #product-display {
-    background-color: peachpuff;
+    background: linear-gradient(to bottom, #170e36 0%, #ffffff 100%);
     grid-template-rows: repeat(10, 1fr);
+    row-gap: 15 px;
 }
 #hero-add {
-    background: linear-gradient(to bottom, #ffcc99 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #170e36 0%, #ffffff 100%);
+    /* text-align: center; */
     height: 200px;
+}
+#hero-add img {
+    width: 1000px;
+    object-fit: contain;
 }
 
 #most-loved {
-    background-color: lightcyan;
-    height: 200px;
-    display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 15px;
+    display: flex;
+    align-items: center;
 }
 
 #gifts {
-    background-color: lightpink;
-    width
+    background-color: white;
 }
 #fall {
-    background-color: orangered;
+    background-color: white;
+}
+#fall img {
+    width: 235px;
 }
 
 #finds {
-    background-color: rgb(228, 189, 84);
+    background-color: white;
+}
+
+#fall-favorites {
+    background-color: white;
 }
 #sign-in {
-    background-color: rgb(245, 240, 238);
+    background-color: white;
 }
 #more-most-loved {
-    background-color: cadetblue;
-    height: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 15px;
+    display: flex;
+    align-items: center;
 }
 
-.cube {
-    border:black 2px;
+.product-image-cube {
     column-count: 2;
+    flex-wrap: wrap;
     /* display: grid; */
-    
-
+    object-fit: contain;
+}
+.product-image-cube img {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
 }
 
-ul{
-    border:black;
+#sign-in img {
+    height: 100px;
+    width: 250px;
+    object-fit: contain;
+}
+
+ul {
+    border: black;
+    size: 100px;
+    object-fit: contains;
 }
