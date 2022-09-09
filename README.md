@@ -1,4 +1,4 @@
-![wireframe of amazon home page](./amazon_wireframe.png);
+![wireframe of amazon home page](./images/amazon_wireframe.pngamazon_wireframe.png);
 
 <!-- My wireframe got a little out of control. -->
 
