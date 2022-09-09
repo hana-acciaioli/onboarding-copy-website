@@ -74,9 +74,6 @@ body {
 
 .product-image-cube {
     column-count: 2;
-    flex-wrap: wrap;
-    /* display: grid; */
-    object-fit: contain;
 }
 .product-image-cube img {
     height: 100px;
@@ -90,8 +87,24 @@ body {
     object-fit: contain;
 }
 
-ul {
-    border: black;
-    size: 100px;
-    object-fit: contains;
+#computers {
+    background-color: white;
+    object-fit: contain;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#computers img {
+    object-fit: contain;
+    width: 175px;
+}
+
+#cellphones {
+    background-color: white;
+    object-fit: contain;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#cellphones img {
+    object-fit: contain;
+    width: 125px;
 }
