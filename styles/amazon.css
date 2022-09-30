@@ -1,0 +1,110 @@
+body {
+    display: grid;
+    grid-template-rows: 100 100;
+    background-color: lightgrey;
+    /* justify-content: center; */
+    padding: 10px;
+}
+
+#page-header {
+    background: black;
+    color: white;
+    height: 40px;
+}
+
+#products {
+    background: lightgrey;
+    display: grid;
+    height: 2000px;
+    grid-template-columns: 1fr 1000px 1fr;
+}
+
+#product-display {
+    background: linear-gradient(to bottom, #170e36 0%, #ffffff 100%);
+    grid-template-rows: repeat(10, 1fr);
+    row-gap: 15 px;
+}
+#hero-add {
+    background: linear-gradient(to bottom, #170e36 0%, #ffffff 100%);
+    /* text-align: center; */
+    height: 200px;
+}
+#hero-add img {
+    width: 1000px;
+    object-fit: contain;
+}
+
+#most-loved {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#gifts {
+    background-color: white;
+}
+#fall {
+    background-color: white;
+}
+#fall img {
+    width: 235px;
+}
+
+#finds {
+    background-color: white;
+}
+
+#fall-favorites {
+    background-color: white;
+}
+#sign-in {
+    background-color: white;
+}
+#more-most-loved {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.product-image-cube {
+    column-count: 2;
+}
+.product-image-cube img {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#sign-in img {
+    height: 100px;
+    width: 250px;
+    object-fit: contain;
+}
+
+#computers {
+    background-color: white;
+    object-fit: contain;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#computers img {
+    object-fit: contain;
+    width: 175px;
+}
+
+#cellphones {
+    background-color: white;
+    object-fit: contain;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#cellphones img {
+    object-fit: contain;
+    width: 125px;
+}
